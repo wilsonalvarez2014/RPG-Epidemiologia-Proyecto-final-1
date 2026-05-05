@@ -43,7 +43,7 @@ const PUNTAJE_INICIAL = 10;
     //funcion para comando de pluging
     if (command === "StartMiniGame") {
       if ($gameSystem.hasPassedMiniGame()) {
-        alert("⚠️ Ya no puedes volver a presentar la prueba. Ya sacaste el mayor puntaje.");
+        //alert("⚠️ Ya no puedes volver a presentar la prueba. Ya sacaste el mayor puntaje.");
         return;
       }
       
@@ -66,6 +66,11 @@ const PUNTAJE_INICIAL = 10;
   Scene_MiniGame.prototype = Object.create(Scene_Base.prototype);
   Scene_MiniGame.prototype.constructor = Scene_MiniGame;
 //funcion para comando de pluging
+Scene_MiniGame.prototype.terminate = function() {
+  Scene_Base.prototype.terminate.call(this);
+  Input.clear();
+  TouchInput.clear();
+};
   Scene_MiniGame.prototype.initialize = function() {
     Scene_Base.prototype.initialize.call(this);
   };
