@@ -16,7 +16,7 @@
  *
  * @help
  * Comando de evento para activar el minijuego:
- *     DeFinicionCaso
+ *     DefinicionCaso
  * 
  * Comando verificacion de QUIZ completado
  *      $gameSystem.juegoCompletadoo()
