@@ -568,9 +568,9 @@ const variables = ['Pregunta 1: ¿Cuál de las situaciones representa un ejemplo
         ];
 
         const medidasParaLasCajas = [
-            {w: 250, h: 30}, // 1
-            {w: 240, h: 30},  // 2
-            {w: 250, h: 30}, // 3
+            {w: 250, h: 40}, // 1
+            {w: 240, h: 40},  // 2
+            {w: 250, h: 40}, // 3
             {w: 210, h: 30},  // 
             {w: 210, h: 30},  // 
             {w: 210, h: 30},  // 

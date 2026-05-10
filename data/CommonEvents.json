@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"list":[{"code":111,"indent":0,"parameters":[8,13]},{"code":231,"indent":1,"parameters":[1,"GameMap",0,0,0,0,100,100,255,0]},{"code":101,"indent":1,"parameters":["",0,2,2]},{"code":401,"indent":1,"parameters":[""]},{"code":235,"indent":1,"parameters":[1]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"Ver mapa","switchId":1,"trigger":0},
+{"id":1,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":2,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
