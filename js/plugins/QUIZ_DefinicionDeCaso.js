@@ -636,7 +636,7 @@ const variables = ['La señora Rosa Martínez, presentó fiebre súbita, dolor d
     Scene_Caso.prototype.crearElementosArrastrables = function() {
         this._elementos = [];
         
-        const valores = ['2', '4', '1', '3'];
+        const valores = ['1', '2', '3', '4'];
         const posiciones = [
             {x: 660, y: 305}, {x: 660, y: 341}, {x: 660, y: 370},
             {x: 660, y: 400},
