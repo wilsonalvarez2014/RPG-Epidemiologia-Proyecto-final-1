@@ -816,14 +816,14 @@ const variables = ['Variables', 'Naturaleza', 'Nivel de medicion', 'Categoría',
                 $gameVariables.setValue(147, $gameVariables.value(147) - 1);
                 _contador = Math.max(0, _contador - 1);
                 // Verificar si se acabaron los intentos
-                if (_contador <= 0 || $gameVariables.value(147) <= 0) {
-                   $gameSystem.setLrmzJuegoBloqueado(true);
-                   SceneManager.push(Scene_LRMZ_BloqueoFinal);
-                   doQuiz(QuizNames.CLASI_F_VARIABLES,QuizEstados.QUIZ_REPROBADO);
-                   return;
-                 }else{
-                  doQuiz(QuizNames.CLASI_F_VARIABLES,QuizEstados.QUIZ_ACTIVO);
-                 }
+//                if (_contador <= 0 || $gameVariables.value(147) <= 0) {
+//                   $gameSystem.setLrmzJuegoBloqueado(true);
+//                   SceneManager.push(Scene_LRMZ_BloqueoFinal);
+//                   doQuiz(QuizNames.CLASI_F_VARIABLES,QuizEstados.QUIZ_REPROBADO);
+//                   return;
+//                 }else{
+//                  doQuiz(QuizNames.CLASI_F_VARIABLES,QuizEstados.QUIZ_ACTIVO);
+//                 }
                 alert("❌ Respuestas incorrectas. Se restó 1 punto. Puntaje actual: " + _contador);
                 if (_contador === 5) {
                     alert("⚠️ CUIDADO: solo te quedan 5 intentos, ve repasa tus notas y continua.")
