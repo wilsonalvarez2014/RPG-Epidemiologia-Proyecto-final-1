@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"battlerName":"historiador luchando","characterIndex":0,"characterName":"Historiador caminando","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Historiador","traits":[],"initialLevel":1,"maxLevel":99,"name":"Wilson Alvarez","nickname":"","note":"","profile":""},
-{"id":2,"battlerName":"Wayuu Dolores Epinayú Luchando","characterIndex":0,"characterName":"Wayuu Dolores Epinayú caminando","classId":3,"equips":[3,0,10,9,8],"faceIndex":0,"faceName":"Wayuu dolores Epinayu","traits":[{"code":43,"dataId":8,"value":1},{"code":31,"dataId":2,"value":1}],"initialLevel":1,"maxLevel":99,"name":"Dolores Epinayú","nickname":"","note":"","profile":""},
+{"id":1,"battlerName":"historiador luchando","characterIndex":0,"characterName":"Historiador caminando","classId":1,"equips":[5,0,0,0,0],"faceIndex":0,"faceName":"Historiador","traits":[{"code":51,"dataId":11,"value":1},{"code":44,"dataId":27,"value":1}],"initialLevel":1,"maxLevel":99,"name":"Jugador Hombre","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"3 Enfermera Lady","characterIndex":0,"characterName":"3 Enfermera Lady caminando","classId":3,"equips":[3,0,6,9,8],"faceIndex":0,"faceName":"3 Enfermera Lady","traits":[{"code":43,"dataId":8,"value":1},{"code":31,"dataId":1,"value":1},{"code":43,"dataId":2,"value":1}],"initialLevel":1,"maxLevel":99,"name":"Enfermera Leidy","nickname":"","note":"","profile":""},
 {"id":3,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
 {"id":4,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
 ]
